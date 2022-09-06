@@ -7,54 +7,27 @@
     let twitchFlyout = false;
     let githubFlyout = false;
 
-    const openTwitter = () => {
-        window.open("https://twitter.com/z4xiii");
-        twitterFlyout = true;
+    const openScript = () => {
+        window.open("https://raw.githubusercontent.com/z4xi/bbot-r/main/load");
     }
 
-    const openTwitch = () => {
-        window.open("https://twitch.tv/z4xiiii");
-        twitchFlyout = true;
+    const openDiscord = () => {
+        window.open("https://discord.gg/Cgbpmksee4");
     }
 
-    const openGithub = () => {
-        window.open("https://github.com/z4xi");
-        githubFlyout = true;
+    const openSource = () => {
+        window.open("https://github.com/z4xi/bbot-r/");
     }
 </script>
 
-<Fluent.Button on:click={openTwitter}>
-    twitter
+<Fluent.Button on:click={openScript}>
+    script
 </Fluent.Button>
 
-<Fluent.ContentDialog bind:twitterFlyout>
-	opening twitter
-    <p> </p>
-    <hr />
-    <p> </p>
-	<Fluent.Button variant="accent" on:click={() => (twitterFlyout = false)}>ok</Fluent.Button>
-</Fluent.ContentDialog>
-
-<Fluent.Button on:click={openTwitch}>
-    twitch
+<Fluent.Button on:click={openDiscord}>
+    discord
 </Fluent.Button>
 
-<Fluent.ContentDialog bind:twitchFlyout>
-	opening twitch
-    <p> </p>
-    <hr />
-    <p> </p>
-	<Fluent.Button variant="accent" on:click={() => (twitchFlyout = false)}>ok</Fluent.Button>
-</Fluent.ContentDialog>
-
-<Fluent.Button on:click={openGithub}>
-    github
+<Fluent.Button on:click={openSource}>
+    source
 </Fluent.Button>
-
-<Fluent.ContentDialog bind:githubFlyout>
-	opening github
-    <p> </p>
-    <hr />
-    <p> </p>
-	<Fluent.Button variant="accent" on:click={() => (githubFlyout = false)}>ok</Fluent.Button>
-</Fluent.ContentDialog>

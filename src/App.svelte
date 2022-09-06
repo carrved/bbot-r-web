@@ -15,9 +15,9 @@
     
   </div>
     <div class="content">
-      <TextBlock ref="title" variant="display">z4xi</TextBlock>
+      <TextBlock ref="title" variant="display">bbot-r</TextBlock>
     </div>
-    <TextBlock variant="subtitle">lua dev, and cat enthousiast</TextBlock>
+    <TextBlock variant="subtitle">bitchbot, reimagined.</TextBlock>
 
   <div class="buttons">
     <p in:scale> </p>
