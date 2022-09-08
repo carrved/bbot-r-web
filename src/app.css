@@ -8,7 +8,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/antoniosarosi/Wallpapers/master/31.jpg');
+  background: url('https://media.giphy.com/media/qDyXm2QUABFi2MtAGX/giphy.gif');
+  background-size: 100% auto;
 
   font-synthesis: none;
   text-rendering: opdtimizeLegibility;

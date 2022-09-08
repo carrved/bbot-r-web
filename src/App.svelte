@@ -14,15 +14,17 @@
   <div>
     
   </div>
-    <div class="content">
+    <div class="content" in:fade>
       <TextBlock ref="title" variant="display">bbot-r</TextBlock>
     </div>
-    <TextBlock variant="subtitle">bitchbot, reimagined.</TextBlock>
+    <div in:fade>
+      <TextBlock variant="subtitle">bitchbot, reimagined.</TextBlock>
+    </div>
 
-  <div class="buttons">
-    <p in:scale> </p>
-    <hr in:scale />
-    <p in:scale> </p>
+  <div class="buttons" in:fade>
+    <p> </p>
+    <hr />
+    <p> </p>
     <Buttons />
   </div>
   {/if}
