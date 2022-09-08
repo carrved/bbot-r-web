@@ -14,14 +14,14 @@
   <div>
     
   </div>
-    <div class="content" in:fade>
+    <div class="content" in:fade="{{ duration: 2000 }}">
       <TextBlock ref="title" variant="display">bbot-r</TextBlock>
     </div>
-    <div in:fade>
+    <div in:fade="{{ duration: 2000 }}">
       <TextBlock variant="subtitle">bitchbot, reimagined.</TextBlock>
     </div>
 
-  <div class="buttons" in:fade>
+  <div class="buttons" in:fade="{{ duration: 2000 }}">
     <p> </p>
     <hr />
     <p> </p>

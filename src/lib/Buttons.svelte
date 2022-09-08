@@ -14,7 +14,7 @@
         window.open("https://github.com/z4xi/bbot-r/");
     }
 </script>
-<div in:fade>
+<div in:fade="{{ duration: 2000 }}">
     <Fluent.Button on:click={openScript}>
         script
     </Fluent.Button>
